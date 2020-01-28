@@ -1,0 +1,42 @@
+html, body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.body {
+	background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
+}
+
+.wrapper{
+	background-color: white;
+	max-width: 70%;
+	display: flex;
+	flex-direction: row;
+	height: 80%;
+}
+
+.order {
+	background-color: grey;
+	margin: 5px;
+	max-width: 50%;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: : center;
+	align-items: center;
+}
+
+.order a {
+	text-decoration: none;
+	padding: 10px;
+}
+
+.order a:hover {
+	background-color: black;
+	color: white;
+}
