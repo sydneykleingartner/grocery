@@ -10,12 +10,7 @@ html, body {
 	color: white;
 }
 
-.body {
-	background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
-}
-
 .wrapper{
-	/*background-color: white;*/
 	max-width: 70%;
 	display: flex;
 	flex-direction: row;
@@ -23,7 +18,6 @@ html, body {
 }
 
 .order {
-	/* background-color: grey; */
 	margin: 5px;
 	max-width: 50%;
 	flex: 1;
@@ -39,6 +33,6 @@ html, body {
 }
 
 .order a:hover {
-	background-color: black;
+	background-color: teal;
 	color: white;
 }
