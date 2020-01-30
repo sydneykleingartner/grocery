@@ -1,13 +1,41 @@
 html, body {
+	height: 100%;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 100%;
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Montserrat', sans-serif;
 	background-color: black;
 	color: white;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: white;
+}
+
+.navbar a{
+	float: left;
+	font-size: 16px;
+	color: teal;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.header {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+/* all divs */
+div {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
 }
 
 .order {
@@ -21,7 +49,7 @@ html, body {
 }
 
 .order button {
-	text-decoration: none;
+	/*text-decoration: none;*/
 	padding: 10px;
 	width: 20%;
 	height: 30%;
