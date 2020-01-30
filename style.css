@@ -5,7 +5,9 @@ html, body {
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	background-color: black;
+	color: white;
 }
 
 .body {
@@ -21,7 +23,7 @@ html, body {
 }
 
 .order {
-	background-color: grey;
+	/* background-color: grey; */
 	margin: 5px;
 	max-width: 50%;
 	flex: 1;
