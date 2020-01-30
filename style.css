@@ -20,12 +20,14 @@ html, body {
 	align-items: center;
 }
 
-.order a {
+.order button {
 	text-decoration: none;
 	padding: 10px;
+	width: 20%;
+	height: 30%;
 }
 
-.order a:hover {
+.order button:hover {
 	background-color: teal;
 	color: white;
 }
